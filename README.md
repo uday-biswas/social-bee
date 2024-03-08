@@ -62,23 +62,48 @@ npm start
 
 ## Features
 - **Sign Up page:** Users can create a new account by providing their name, email, and password.
+
 ![screenshot](./assets/signup_page_socialbee.png)
+
+
 - **Email Verification:** Users are required to verify their email address before signup.
+
 - **Sending OTP Email:** Users receive an OTP (One-Time Password) email for additional security.
+
 - **Send OTP page:** Users enter the otp that was sent to their email. 
+
 ![screenshot](./assets/verify_mail_socialbee.png)
+
+
 - **Log In page:** Existing users can log in using their email and password.
+
 ![screenshot](./assets/login_socilabee.png)
+
+
 - **Forgot Password page:** Users can request a password reset email if they forget their password.
+
 ![screenshot](./assets/forgotpassword_socialbee.png)
-- **Reset Password page:** Users can reset their password by clicking on the link sent to their email.
+
+
+- **Reset Password page:** Users can reset their password by clicking on the link sent to their email and enter new password.
+
 ![screenshot](./assets/resetpassword_socialbee.png)
+
+
 - **Post List Page:** Displays a list of posts with infinite scroll functionality.
+
 ![screenshot](./assets/post_page_socialbee.png)
+
+
+- **New posts loading:** Reached the bottom of the posts page, so loading new posts.
+
 ![screenshot](./assets/postpage_scrollbottom.png)
-- **Homepage:** Provides an overview of the app and its features.
-- **Settings page:** Users can update the profile picture and update their old password.
+
+
+- **Settings page:** Users can update the profile picture and update their password.
+
 ![screenshot](./assets/settingpage_socialbe.png)
+
 
 ## Technologies Used
 - React.js for the frontend
@@ -90,8 +115,8 @@ npm start
 
 ## Deployment
 
-- The frontend is deployed in vercel. [Link](https://weather-app-loco.vercel.app/) :point_left:
-- The backend is deployed in render. [Link](https://weather-app-gar8.onrender.com) :point_left:
+- The frontend is deployed in vercel. [Link](https://social-bee-eight.vercel.app/) :point_left:
+- The backend is deployed in render. [Link](https://social-bee-lsy7.onrender.com) :point_left:
 
 ## Getting Started
 - Follow the live demo links above and enjoy the site.
