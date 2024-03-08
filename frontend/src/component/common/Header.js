@@ -111,7 +111,7 @@ const Header = () => {
                 loading="lazy"
               />
               <div className="text-white font-bold mx-2 md:text-2xl text-xl">
-                SkillQuake
+                SocialBee
               </div>
             </div>
           </Link>
