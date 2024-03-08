@@ -58,17 +58,27 @@ npm start
 5. Open your browser and navigate to `http://localhost:3000`
 
 ## Landing Page:
-![screenshot](./assets/landing_page.png)
+![screenshot](./assets/landing_page_social_bee.png)
 
 ## Features
-- **Sign Up:** Users can create a new account by providing their name, email, and password.
-- **Log In:** Existing users can log in using their email and password.
-- **Forgot Password:** Users can request a password reset email if they forget their password.
-- **Reset Password:** Users can reset their password by clicking on the link sent to their email.
-- **Email Verification:** Users are required to verify their email address before logging in.
+- **Sign Up page:** Users can create a new account by providing their name, email, and password.
+![screenshot](./assets/signup_page_socialbee.png)
+- **Email Verification:** Users are required to verify their email address before signup.
 - **Sending OTP Email:** Users receive an OTP (One-Time Password) email for additional security.
+- **Send OTP page:** Users enter the otp that was sent to their email. 
+![screenshot](./assets/verify_mail_socialbee.png)
+- **Log In page:** Existing users can log in using their email and password.
+![screenshot](./assets/login_socilabee.png)
+- **Forgot Password page:** Users can request a password reset email if they forget their password.
+![screenshot](./assets/forgotpassword_socialbee.png)
+- **Reset Password page:** Users can reset their password by clicking on the link sent to their email.
+![screenshot](./assets/resetpassword_socialbee.png)
 - **Post List Page:** Displays a list of posts with infinite scroll functionality.
+![screenshot](./assets/post_page_socialbee.png)
+![screenshot](./assets/postpage_scrollbottom.png)
 - **Homepage:** Provides an overview of the app and its features.
+- **Settings page:** Users can update the profile picture and update their old password.
+![screenshot](./assets/settingpage_socialbe.png)
 
 ## Technologies Used
 - React.js for the frontend

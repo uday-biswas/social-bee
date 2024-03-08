@@ -14,7 +14,7 @@ const PostScreen = () => {
   const fetchPosts = async () => {
     setIsLoading(true);
     setError(null);
-    await new Promise(resolve => setTimeout(resolve, 2000));
+    await new Promise(resolve => setTimeout(resolve, 1500));
     try {
       const response = await axios.get(`https://dev.to/api/articles?per_page=10&page=${page}`);
       console.log("response : ", response);

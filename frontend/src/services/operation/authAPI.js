@@ -203,7 +203,7 @@ const getPasswordResetToken = (email, setEmailSent) => {
 //if the response is false, throw an error
 //dispatch the loading state to false and set the setEmailSent to true
 
-const resetPassword = (password, confirmPassword, token) => {
+const resetPassword = (password, confirmPassword, token, navigate) => {
   return async (dispatch) => {
     dispatch(setLoading(true));
     try {
@@ -220,6 +220,7 @@ const resetPassword = (password, confirmPassword, token) => {
       }
 
       toast.success("Password has been reset successfully");
+      navigate("/login");
     } catch (error) {
       // console.log("RESET PASSWORD TOKEN Error", error);
       toast.error("Unable to reset password");
